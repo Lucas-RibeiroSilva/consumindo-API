@@ -60,7 +60,7 @@ export default function Home(){
             <h1>Dragon Ball Characters</h1>
 
             <div className="search-box">
-                <input type="number" placeholder="Digite uma página de (1/20)" value={page} onChange={(e) => setPage(e.target.value)}/>
+                <input type="number" placeholder="Digite uma página de (1/5)" value={page} onChange={(e) => setPage(e.target.value)}/>
                 <button onClick={handleSearch}>Buscar</button>
             </div>
 
